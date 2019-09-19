@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|K2D");
+
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  overflow-y: hidden;
+  background: #000;
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+}
+
+#quote-box {
+  width: 400px;
+  margin: 0 auto;
+  padding: 1px 15px;
+  font-weight: 550;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 1px gray;
+  color: #fff;
+}
+
+#text p {
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+#author h5 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twitter-icon {
+  color: #1da1f2;
+}
+
+.button {
+  font-family: Arial;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 50em;
+  box-shadow: 0px 0px 3px 0.5px rgb(82, 81, 81);
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.button:focus {
+  outline: none;
+  border: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .title {
+    font-size: 22px;
+  }
+  #quote-box {
+    width: 270px;
+  }
+}

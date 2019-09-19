@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans|K2D");
 
 body {
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 100px);
   overflow-y: hidden;
-  background: #000;
+  background: #fff;
 }
 
 .title {
   text-align: center;
   font-weight: 500;
+  font-size: 12px;
 }
 
 #quote-box {
@@ -20,11 +21,11 @@ body {
   margin: 0 auto;
   padding: 1px 15px;
   font-weight: 550;
-  font-size: 22px;
+  font-size: 14px;
   text-align: center;
   border-radius: 20px;
   box-shadow: 0px 0px 2px 1px gray;
-  color: #fff;
+  color: #000;
 }
 
 #text p {
@@ -49,9 +50,8 @@ body {
 .button {
   font-family: Arial;
   font-weight: 500;
-  font-size: 1rem;
   padding: 5px;
-  border-radius: 50em;
+  border-radius: 5px;
   box-shadow: 0px 0px 3px 0.5px rgb(82, 81, 81);
   border: 0;
   margin-bottom: 10px;

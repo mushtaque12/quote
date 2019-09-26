@@ -42,9 +42,8 @@ class Container extends Component {
     const { quote, author } = this.state;
     return (
       <div id="wrapper">
-        <h1 className="title">Random Quote</h1>
-
         <div id="quote-box">
+          <h1 className="title">Quote of the day</h1>
           <QuoteBox quote={quote} author={author} />
           <div id="buttons">
             {/* <TwitterShare quote={quote} author={author} /> */}

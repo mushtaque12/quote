@@ -3,8 +3,7 @@ import axios from "axios";
 import copy from "clipboard-copy";
 import QuoteBox from "./QuoteBox";
 import Button from "./Button";
-import TwitterShare from "./TwitterShare";
-import TextImage from "./TextImage";
+// import TwitterShare from "./TwitterShare";
 
 class Container extends Component {
   constructor(props) {
@@ -48,7 +47,7 @@ class Container extends Component {
         <div id="quote-box">
           <QuoteBox quote={quote} author={author} />
           <div id="buttons">
-            <TwitterShare quote={quote} author={author} />
+            {/* <TwitterShare quote={quote} author={author} /> */}
             <Button
               id="new-quote"
               title="New Quote"
@@ -57,7 +56,6 @@ class Container extends Component {
             <Button id="copy" title="Copy" onClick={() => copy(quote)} />
           </div>
         </div>
-        {quote && <TextImage name={quote} x="0" y="100" />}
       </div>
     );
   }

@@ -6,7 +6,7 @@ body {
   align-items: center;
   height: calc(100vh - 100px);
   overflow-y: hidden;
-  background: #fff;
+  background: #000;
 }
 
 .title {
@@ -21,7 +21,6 @@ body {
   height: 604px;
   margin: 0 auto;
   padding: 1px 15px;
-  font-weight: 550;
   font-size: 14px;
   text-align: center;
   border-radius: 20px;
